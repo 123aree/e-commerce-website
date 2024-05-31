@@ -1,0 +1,44 @@
+
+
+/* Navbar */
+.navbar {
+    background-color: #84A59D !important;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F28482;
+    text-decoration: underline;
+}
+
+/* Dashboard */
+.container-fluid.bg-primary {
+    background-color: #F28482;
+}
+
+.container-fluid.bg-primary h2 {
+    color: #FFFFFF;
+}
+
+.col-md-6.bg-secondary {
+    background-color: #84A59D;
+}
+
+.col-md-6.bg-secondary a.btn {
+    background-color: #F28482;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.col-md-6.bg-secondary a.btn:hover {
+    background-color: #F7EDE2;
+    color: #F28482;
+}
